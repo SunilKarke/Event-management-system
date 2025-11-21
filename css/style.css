@@ -1,0 +1,134 @@
+/* Simple & Attractive Style for Event_M */
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: #34495e;
+  color: #fff;
+  padding: 14px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+header a:hover {
+  color: #1abc9c;
+}
+
+nav a {
+  margin-left: 14px;
+}
+
+/* Main content */
+main {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Form styles */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+input[type=text],
+input[type=password],
+input[type=datetime-local],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 14px;
+  transition: 0.2s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #1abc9c;
+  outline: none;
+}
+
+button {
+  background: #1abc9c;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* button:hover {
+  background: #16a085;
+} */
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background: #f0f0f0;
+}
+
+/* tr:hover {
+  background: #fafafa;
+} */
+
+/* Flash message */
+.flash {
+  background: #fff9e6;
+  border: 1px solid #ffe58a;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  padding: 15px;
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+  margin-top: 20px;
+}
